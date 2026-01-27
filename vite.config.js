@@ -30,5 +30,12 @@ export default defineConfig({
     open: true, //vite项目启动时自动打开浏览器
     hmr: true,
     port: 9000
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler'
+      }
+    }
   }
 })

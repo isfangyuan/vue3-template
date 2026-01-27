@@ -19,17 +19,17 @@ pnpm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+pnpm run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-pnpm build
+pnpm run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-pnpm lint
+pnpm run lint
 ```
